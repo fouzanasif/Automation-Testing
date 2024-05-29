@@ -1,0 +1,182 @@
+{
+  "uuid": "232d7d9a-8852-440f-9588-e1896a5fd74b",
+  "historyId": "650b096920ca6665cf12f37c24e38320",
+  "testCaseId": "7a554ef3a24d0df4f2a263cdf057820f",
+  "fullName": "k238054/Features/Setting an appointment with doctor/Book Appointment",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KHILT-9772"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Setting an appointment with doctor"
+    },
+    {
+      "name": "tag",
+      "value": "mytag"
+    }
+  ],
+  "links": [],
+  "name": "Book Appointment",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  Go to the URL",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1714461606214,
+      "stop": 1714461621192
+    },
+    {
+      "name": "And  Add login credentials",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1714461621194,
+      "stop": 1714461623510
+    },
+    {
+      "name": "And  Login to the website",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1714461623511,
+      "stop": 1714461624188
+    },
+    {
+      "name": "And  Select Facility",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1714461624188,
+      "stop": 1714461624475
+    },
+    {
+      "name": "And  Select HealthCare Program",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1714461624475,
+      "stop": 1714461624566
+    },
+    {
+      "name": "And  Select Date of Appointment",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1714461624566,
+      "stop": 1714461624766
+    },
+    {
+      "name": "And  Add Comments",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1714461624767,
+      "stop": 1714461625149
+    },
+    {
+      "name": "When  the appointment is booked",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1714461625150,
+      "stop": 1714461629558
+    },
+    {
+      "name": "Then  Appointment Scheduled",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1714461629559,
+      "stop": 1714461629998
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1714461606196,
+  "stop": 1714461630000
+}

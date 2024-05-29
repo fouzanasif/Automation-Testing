@@ -1,0 +1,96 @@
+{
+  "uuid": "f58f07ff-ded1-410c-8ca5-517b040f85b2",
+  "historyId": "a25029a5c51e67d30d7f55f974493324",
+  "testCaseId": "e7062a6b3cec0ca0356361667e42b824",
+  "fullName": "ASTProject/Features/Logout/A user logs out of his\\/her session",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KHILT-9772"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Logout"
+    },
+    {
+      "name": "tag",
+      "value": "logout"
+    }
+  ],
+  "links": [],
+  "name": "A user logs out of his/her session",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Object reference not set to an instance of an object.",
+    "trace": "System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at ASTProject.Pages.Login.LogoutDropdown() in D:\\UniWork\\Semester2\\Software Testing\\Project - Copy\\k238054\\Pages\\Login.cs:line 46\r\n   at ASTProject.StepDefinitions.LogoutStepDefinitions.GivenAUserClicksOnProfileDropdown() in D:\\UniWork\\Semester2\\Software Testing\\Project - Copy\\k238054\\StepDefinitions\\LogoutStepDefinitions.cs:line 16\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  A user clicks on profile dropdown",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Object reference not set to an instance of an object.",
+        "trace": "System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at ASTProject.Pages.Login.LogoutDropdown() in D:\\UniWork\\Semester2\\Software Testing\\Project - Copy\\k238054\\Pages\\Login.cs:line 46\r\n   at ASTProject.StepDefinitions.LogoutStepDefinitions.GivenAUserClicksOnProfileDropdown() in D:\\UniWork\\Semester2\\Software Testing\\Project - Copy\\k238054\\StepDefinitions\\LogoutStepDefinitions.cs:line 16\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715735971780,
+      "stop": 1715735971862
+    },
+    {
+      "name": "When  The user clicks Logout",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715735971863,
+      "stop": 1715735971864
+    },
+    {
+      "name": "Then  Log the user out of the session",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715735971866,
+      "stop": 1715735971866
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715735971780,
+  "stop": 1715735971870
+}

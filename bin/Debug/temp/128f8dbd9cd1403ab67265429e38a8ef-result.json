@@ -1,0 +1,126 @@
+{
+  "uuid": "d42e734b-d174-4c42-9799-eafab6ebb45d",
+  "historyId": "a6a8e53a8b29f865f6e317fe1039af1e",
+  "testCaseId": "dd6701dfd72a7a0b408fd9b000af6259",
+  "fullName": "Project/Features/Successful Login Scenario/User Logging into the LMS",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KHILT-9772"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Successful Login Scenario"
+    },
+    {
+      "name": "tag",
+      "value": "login"
+    }
+  ],
+  "links": [],
+  "name": "User Logging into the LMS",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=124.0.6367.202)",
+    "trace": "OpenQA.Selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=124.0.6367.202)\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at Project.Pages.Login.EnterEmail() in D:\\UniWork\\Semester2\\Software Testing\\Project\\k238054\\Pages\\Login.cs:line 20\r\n   at Project.StepDefinitions.SuccessfulLoginScenarioStepDefinitions.GivenUserEntersCorrectEmail() in D:\\UniWork\\Semester2\\Software Testing\\Project\\k238054\\StepDefinitions\\SuccessfulLoginScenarioStepDefinitions.cs:line 23\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  User goes to URL",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715711629083,
+      "stop": 1715711664525
+    },
+    {
+      "name": "Given  User enters correct email",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=124.0.6367.202)",
+        "trace": "OpenQA.Selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=124.0.6367.202)\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at Project.Pages.Login.EnterEmail() in D:\\UniWork\\Semester2\\Software Testing\\Project\\k238054\\Pages\\Login.cs:line 20\r\n   at Project.StepDefinitions.SuccessfulLoginScenarioStepDefinitions.GivenUserEntersCorrectEmail() in D:\\UniWork\\Semester2\\Software Testing\\Project\\k238054\\StepDefinitions\\SuccessfulLoginScenarioStepDefinitions.cs:line 23\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715711664528,
+      "stop": 1715711664600
+    },
+    {
+      "name": "Given  User enters correct password",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715711664601,
+      "stop": 1715711664602
+    },
+    {
+      "name": "When  User presses Login",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715711664605,
+      "stop": 1715711664605
+    },
+    {
+      "name": "Then  User is redirected to Catalog Page",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715711664606,
+      "stop": 1715711664606
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715711629077,
+  "stop": 1715711664610
+}

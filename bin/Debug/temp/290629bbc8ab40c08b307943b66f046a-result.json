@@ -1,0 +1,141 @@
+{
+  "uuid": "d8b2804c-2f5d-4598-9589-0e6503d4c62a",
+  "historyId": "6d28005b17193bd81573a120aec596e8",
+  "testCaseId": "9369341c6f5d5c0c776e686138700402",
+  "fullName": "Project/Features/Successful Login Scenario/User Logging into the website",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KHILT-9772"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Successful Login Scenario"
+    },
+    {
+      "name": "tag",
+      "value": "login"
+    }
+  ],
+  "links": [],
+  "name": "User Logging into the website",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "element not interactable\n  (Session info: chrome=124.0.6367.202)",
+    "trace": "OpenQA.Selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome=124.0.6367.202)\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.SendKeys(String text)\r\n   at Project.Pages.Login.EnterUsername() in D:\\UniWork\\Semester2\\Software Testing\\Project\\k238054\\Pages\\Login.cs:line 24\r\n   at Project.StepDefinitions.SuccessfulLoginScenarioStepDefinitions.GivenUserEntersCorrectUsername() in D:\\UniWork\\Semester2\\Software Testing\\Project\\k238054\\StepDefinitions\\SuccessfulLoginScenarioStepDefinitions.cs:line 28\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  User goes to URL",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715713450790,
+      "stop": 1715713458766
+    },
+    {
+      "name": "Given  User presses login",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715713458769,
+      "stop": 1715713458971
+    },
+    {
+      "name": "Given  User enters correct username",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "element not interactable\n  (Session info: chrome=124.0.6367.202)",
+        "trace": "OpenQA.Selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome=124.0.6367.202)\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.SendKeys(String text)\r\n   at Project.Pages.Login.EnterUsername() in D:\\UniWork\\Semester2\\Software Testing\\Project\\k238054\\Pages\\Login.cs:line 24\r\n   at Project.StepDefinitions.SuccessfulLoginScenarioStepDefinitions.GivenUserEntersCorrectUsername() in D:\\UniWork\\Semester2\\Software Testing\\Project\\k238054\\StepDefinitions\\SuccessfulLoginScenarioStepDefinitions.cs:line 28\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715713458971,
+      "stop": 1715713459215
+    },
+    {
+      "name": "Given  User enters correct password",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715713459216,
+      "stop": 1715713459217
+    },
+    {
+      "name": "When  User presses Login",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715713459222,
+      "stop": 1715713459223
+    },
+    {
+      "name": "Then  User is redirected to Catalog Page",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715713459223,
+      "stop": 1715713459223
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715713450778,
+  "stop": 1715713459231
+}

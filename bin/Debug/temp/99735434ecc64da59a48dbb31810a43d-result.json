@@ -1,0 +1,122 @@
+{
+  "uuid": "3bbc6484-7dbf-4e97-ba2e-8ccc85486893",
+  "historyId": "71a672695ed864543074308b6e9e8b87",
+  "testCaseId": "9fe40451de665767a799c3e5369d5429",
+  "fullName": "ASTProject/Features/Login/User logging into the LMS",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KHILT-9772"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Login"
+    },
+    {
+      "name": "tag",
+      "value": "login"
+    }
+  ],
+  "links": [],
+  "name": "User logging into the LMS",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  User goes to URL",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715722048011,
+      "stop": 1715722053932
+    },
+    {
+      "name": "And  User enters correct email",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715722053934,
+      "stop": 1715722054036
+    },
+    {
+      "name": "And  User enters correct password",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715722054036,
+      "stop": 1715722054102
+    },
+    {
+      "name": "When  User presses login",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715722054102,
+      "stop": 1715722054159
+    },
+    {
+      "name": "Then  User should see Catalog",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715722054160,
+      "stop": 1715722056198
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715722048004,
+  "stop": 1715722056200
+}

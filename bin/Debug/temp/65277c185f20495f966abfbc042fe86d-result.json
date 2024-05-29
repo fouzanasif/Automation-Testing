@@ -1,0 +1,212 @@
+{
+  "uuid": "3dc9cc02-bb1a-45a5-95ae-a25eb9b08a2d",
+  "historyId": "0a5350010dee22577ac660e3c5c62b65",
+  "testCaseId": "dd9ec43e893c2894a441c2be2d671c6a",
+  "fullName": "ASTProject/Features/Signup/User enters correct credentials to signup and then sign in to account",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KHILT-9772"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Signup"
+    },
+    {
+      "name": "tag",
+      "value": "signup"
+    }
+  ],
+  "links": [],
+  "name": "User enters correct credentials to signup and then sign in to account",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  User goes to signup URL",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715737992315,
+      "stop": 1715737993571
+    },
+    {
+      "name": "And  User enters name in correct format",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715737993571,
+      "stop": 1715737993664
+    },
+    {
+      "name": "And  User enters email in correct format",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715737993668,
+      "stop": 1715737993739
+    },
+    {
+      "name": "And  User enters password in correct format",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715737993739,
+      "stop": 1715737994817
+    },
+    {
+      "name": "And  User enters membership type",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715737994817,
+      "stop": 1715737994878
+    },
+    {
+      "name": "And  User enters subscription period",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715737994878,
+      "stop": 1715737994937
+    },
+    {
+      "name": "And  User presses signup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715737994937,
+      "stop": 1715737996005
+    },
+    {
+      "name": "And  User enters login email",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715737996005,
+      "stop": 1715737997079
+    },
+    {
+      "name": "And  User enters login password",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715737997079,
+      "stop": 1715737997169
+    },
+    {
+      "name": "When  User clicks login",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715737997169,
+      "stop": 1715737997205
+    },
+    {
+      "name": "Then  User should have his/her name",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715737997205,
+      "stop": 1715737998244
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715737992315,
+  "stop": 1715737998245
+}

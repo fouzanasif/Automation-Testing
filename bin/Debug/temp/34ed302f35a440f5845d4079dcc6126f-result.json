@@ -1,0 +1,96 @@
+{
+  "uuid": "d9fdfe9d-40a9-4a70-87b4-4e2aa640a6f9",
+  "historyId": "7256b55190e4f60afec9afc97abcddcd",
+  "testCaseId": "3cb9224843ff161637ec8e74c7d874a0",
+  "fullName": "ASTProject/Features/Z-WrongDateIssuesRequestGreaterThanMonth/User tries to issue book for date more than a month",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KHILT-9772"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Z-WrongDateIssuesRequestGreaterThanMonth"
+    },
+    {
+      "name": "tag",
+      "value": "wrongdate"
+    }
+  ],
+  "links": [],
+  "name": "User tries to issue book for date more than a month",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tbody/tr[2]/td[4]/button[1]\"}\n  (Session info: MicrosoftEdge=124.0.2478.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+    "trace": "OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tbody/tr[2]/td[4]/button[1]\"}\n  (Session info: MicrosoftEdge=124.0.2478.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at ASTProject.Pages.IssuesRequest.ClickIssue(Int32 book) in D:\\UniWork\\Semester2\\Software Testing\\Project - Copy\\k238054\\Pages\\IssuesRequest.cs:line 20\r\n   at ASTProject.StepDefinitions.WrongDateIssuesRequestStepDefinitions.GivenUserClicksOnAnotherIssueBook(Int32 p0) in D:\\UniWork\\Semester2\\Software Testing\\Project - Copy\\k238054\\StepDefinitions\\WrongDateIssuesRequestStepDefinitions.cs:line 16\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  User clicks on another issue book 2",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tbody/tr[2]/td[4]/button[1]\"}\n  (Session info: MicrosoftEdge=124.0.2478.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+        "trace": "OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tbody/tr[2]/td[4]/button[1]\"}\n  (Session info: MicrosoftEdge=124.0.2478.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at ASTProject.Pages.IssuesRequest.ClickIssue(Int32 book) in D:\\UniWork\\Semester2\\Software Testing\\Project - Copy\\k238054\\Pages\\IssuesRequest.cs:line 20\r\n   at ASTProject.StepDefinitions.WrongDateIssuesRequestStepDefinitions.GivenUserClicksOnAnotherIssueBook(Int32 p0) in D:\\UniWork\\Semester2\\Software Testing\\Project - Copy\\k238054\\StepDefinitions\\WrongDateIssuesRequestStepDefinitions.cs:line 16\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715736263768,
+      "stop": 1715736264789
+    },
+    {
+      "name": "When  User enters date greater than a month",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715736264789,
+      "stop": 1715736264789
+    },
+    {
+      "name": "Then  Generate prompt for Due Date > 1 month from today",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715736264789,
+      "stop": 1715736264789
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715736263768,
+  "stop": 1715736264790
+}

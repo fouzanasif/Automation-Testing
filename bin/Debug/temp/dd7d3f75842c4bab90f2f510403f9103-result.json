@@ -1,0 +1,107 @@
+{
+  "uuid": "f5931610-8246-4386-87c2-72e44986f974",
+  "historyId": "33cf94cfd814e65073ce5d54c23e7d61",
+  "testCaseId": "f2b4c5a7f228dec1b3783325c97fcd33",
+  "fullName": "ASTProject/Features/ZZ-RightDateIssuesRequest/User tries to issue book for date within range",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "16"
+    },
+    {
+      "name": "host",
+      "value": "KHILT-9772"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "ZZ-RightDateIssuesRequest"
+    },
+    {
+      "name": "tag",
+      "value": "wrongdate"
+    }
+  ],
+  "links": [],
+  "name": "User tries to issue book for date within range",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  User clicks on correct issue book 3",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715750065632,
+      "stop": 1715750066792
+    },
+    {
+      "name": "Given  User enters date within a month",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715750066792,
+      "stop": 1715750068017
+    },
+    {
+      "name": "When  User clicks Request Issue",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715750068017,
+      "stop": 1715750068176
+    },
+    {
+      "name": "Then  Validate If Issue is available in table",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715750068176,
+      "stop": 1715750076948
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715750065632,
+  "stop": 1715750076949
+}

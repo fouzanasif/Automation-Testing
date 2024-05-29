@@ -1,0 +1,126 @@
+{
+  "uuid": "d70ff9ab-f30e-4076-b7d1-138b9254e8e9",
+  "historyId": "a6a8e53a8b29f865f6e317fe1039af1e",
+  "testCaseId": "dd6701dfd72a7a0b408fd9b000af6259",
+  "fullName": "Project/Features/Successful Login Scenario/User Logging into the LMS",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KHILT-9772"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Successful Login Scenario"
+    },
+    {
+      "name": "tag",
+      "value": "login"
+    }
+  ],
+  "links": [],
+  "name": "User Logging into the LMS",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body.mat-typography:nth-child(2) div.page-wrapper div.page-content:nth-child(2) div.inner-content div.container div.scroll-wrapper table.table.table-striped.table-hover.mt-3 thead:nth-child(1) tr:nth-child(1) > th:nth-child(1)\"}\n  (Session info: chrome=124.0.6367.202); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+    "trace": "OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body.mat-typography:nth-child(2) div.page-wrapper div.page-content:nth-child(2) div.inner-content div.container div.scroll-wrapper table.table.table-striped.table-hover.mt-3 thead:nth-child(1) tr:nth-child(1) > th:nth-child(1)\"}\n  (Session info: chrome=124.0.6367.202); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at Project.Pages.Login.Validator() in D:\\UniWork\\Semester2\\Software Testing\\Project\\k238054\\Pages\\Login.cs:line 33\r\n   at Project.StepDefinitions.SuccessfulLoginScenarioStepDefinitions.ThenUserIsRedirectedToCatalogPage() in D:\\UniWork\\Semester2\\Software Testing\\Project\\k238054\\StepDefinitions\\SuccessfulLoginScenarioStepDefinitions.cs:line 41\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  User goes to URL",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715711669959,
+      "stop": 1715711678022
+    },
+    {
+      "name": "Given  User enters correct email",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715711678024,
+      "stop": 1715711678171
+    },
+    {
+      "name": "Given  User enters correct password",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715711678172,
+      "stop": 1715711678302
+    },
+    {
+      "name": "When  User presses Login",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715711678303,
+      "stop": 1715711678378
+    },
+    {
+      "name": "Then  User is redirected to Catalog Page",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body.mat-typography:nth-child(2) div.page-wrapper div.page-content:nth-child(2) div.inner-content div.container div.scroll-wrapper table.table.table-striped.table-hover.mt-3 thead:nth-child(1) tr:nth-child(1) > th:nth-child(1)\"}\n  (Session info: chrome=124.0.6367.202); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+        "trace": "OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body.mat-typography:nth-child(2) div.page-wrapper div.page-content:nth-child(2) div.inner-content div.container div.scroll-wrapper table.table.table-striped.table-hover.mt-3 thead:nth-child(1) tr:nth-child(1) > th:nth-child(1)\"}\n  (Session info: chrome=124.0.6367.202); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at Project.Pages.Login.Validator() in D:\\UniWork\\Semester2\\Software Testing\\Project\\k238054\\Pages\\Login.cs:line 33\r\n   at Project.StepDefinitions.SuccessfulLoginScenarioStepDefinitions.ThenUserIsRedirectedToCatalogPage() in D:\\UniWork\\Semester2\\Software Testing\\Project\\k238054\\StepDefinitions\\SuccessfulLoginScenarioStepDefinitions.cs:line 41\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715711678379,
+      "stop": 1715711678447
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715711669951,
+  "stop": 1715711678458
+}

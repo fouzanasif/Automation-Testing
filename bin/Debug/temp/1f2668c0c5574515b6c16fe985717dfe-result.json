@@ -1,0 +1,141 @@
+{
+  "uuid": "8fed6ee8-b80f-47e8-b3d1-e9663f2b5bc8",
+  "historyId": "dbd7adb716bbb88f49a3033649894f8d",
+  "testCaseId": "2ad5a74cd91aa2713b6b0aab72d4dc4d",
+  "fullName": "ASTProject/Features/ZZZZ-PayFine/User has penalty to pay for overdue books",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "16"
+    },
+    {
+      "name": "host",
+      "value": "KHILT-9772"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "ZZZZ-PayFine"
+    },
+    {
+      "name": "tag",
+      "value": "finepayment"
+    }
+  ],
+  "links": [],
+  "name": "User has penalty to pay for overdue books",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body[1]/app-root[1]/app-dashboard[1]/div[1]/div[1]/app-view-fine[1]/div[1]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[3]\"}\n  (Session info: MicrosoftEdge=124.0.2478.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+    "trace": "OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body[1]/app-root[1]/app-dashboard[1]/div[1]/div[1]/app-view-fine[1]/div[1]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[3]\"}\n  (Session info: MicrosoftEdge=124.0.2478.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at ASTProject.Pages.FineManagement.CheckFine()\r\n   at ASTProject.StepDefinitions.PayFineStepDefinitions.GivenUserChecksPenalty()\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  User visits Fine Management Page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715750538076,
+      "stop": 1715750540511
+    },
+    {
+      "name": "And  User Checks Penalty",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body[1]/app-root[1]/app-dashboard[1]/div[1]/div[1]/app-view-fine[1]/div[1]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[3]\"}\n  (Session info: MicrosoftEdge=124.0.2478.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+        "trace": "OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body[1]/app-root[1]/app-dashboard[1]/div[1]/div[1]/app-view-fine[1]/div[1]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[3]\"}\n  (Session info: MicrosoftEdge=124.0.2478.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at ASTProject.Pages.FineManagement.CheckFine()\r\n   at ASTProject.StepDefinitions.PayFineStepDefinitions.GivenUserChecksPenalty()\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715750540511,
+      "stop": 1715750545132
+    },
+    {
+      "name": "And  User presses Pay penalty if it exists",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715750545136,
+      "stop": 1715750545137
+    },
+    {
+      "name": "And  User enters dues to pay within range",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715750545139,
+      "stop": 1715750545139
+    },
+    {
+      "name": "When  User presses Submit Dues",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715750545139,
+      "stop": 1715750545139
+    },
+    {
+      "name": "Then  Check if penalty left was expected",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715750545139,
+      "stop": 1715750545139
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715750538076,
+  "stop": 1715750546900
+}

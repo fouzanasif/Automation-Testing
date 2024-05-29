@@ -1,0 +1,92 @@
+{
+  "uuid": "c4ae313a-2932-4d9a-9f86-b172b2abd9d1",
+  "historyId": "a25029a5c51e67d30d7f55f974493324",
+  "testCaseId": "e7062a6b3cec0ca0356361667e42b824",
+  "fullName": "ASTProject/Features/Logout/A user logs out of his\\/her session",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KHILT-9772"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Logout"
+    },
+    {
+      "name": "tag",
+      "value": "logout"
+    }
+  ],
+  "links": [],
+  "name": "A user logs out of his/her session",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  A user clicks on profile dropdown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715748511620,
+      "stop": 1715748513714
+    },
+    {
+      "name": "When  The user clicks Logout",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715748513714,
+      "stop": 1715748514857
+    },
+    {
+      "name": "Then  Log the user out of the session",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715748514857,
+      "stop": 1715748514908
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715748511620,
+  "stop": 1715748514908
+}

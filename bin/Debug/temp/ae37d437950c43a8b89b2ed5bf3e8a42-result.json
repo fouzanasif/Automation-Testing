@@ -1,0 +1,96 @@
+{
+  "uuid": "5580169c-13c5-4ad4-acbb-6d6fb7cc0d80",
+  "historyId": "9545b3009ccb2b95969569cc4ddba567",
+  "testCaseId": "b7aee1612b1941dfce40f755be28a831",
+  "fullName": "ASTProject/Features/IssueBookWithWrongDate/User tries to issue book for wrong date",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KHILT-9772"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "IssueBookWithWrongDate"
+    },
+    {
+      "name": "tag",
+      "value": "wrongdate"
+    }
+  ],
+  "links": [],
+  "name": "User tries to issue book for wrong date",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Object reference not set to an instance of an object.",
+    "trace": "System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at ASTProject.Pages.IssuesRequest.ClickIssue(Int32 book) in D:\\UniWork\\Semester2\\Software Testing\\Project - Copy\\k238054\\Pages\\IssuesRequest.cs:line 20\r\n   at ASTProject.StepDefinitions.IssueBookWithWrongDateStepDefinitions.GivenUserClicksOnIssueBook(Int32 p0) in D:\\UniWork\\Semester2\\Software Testing\\Project - Copy\\k238054\\StepDefinitions\\IssueBookWithWrongDateStepDefinitions.cs:line 19\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  User clicks on issue book 1",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Object reference not set to an instance of an object.",
+        "trace": "System.NullReferenceException: Object reference not set to an instance of an object.\r\n   at ASTProject.Pages.IssuesRequest.ClickIssue(Int32 book) in D:\\UniWork\\Semester2\\Software Testing\\Project - Copy\\k238054\\Pages\\IssuesRequest.cs:line 20\r\n   at ASTProject.StepDefinitions.IssueBookWithWrongDateStepDefinitions.GivenUserClicksOnIssueBook(Int32 p0) in D:\\UniWork\\Semester2\\Software Testing\\Project - Copy\\k238054\\StepDefinitions\\IssueBookWithWrongDateStepDefinitions.cs:line 19\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715729205753,
+      "stop": 1715729206822
+    },
+    {
+      "name": "When  User enters incorrect date",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715729206823,
+      "stop": 1715729206824
+    },
+    {
+      "name": "Then  Generate prompt for Due Date < Current Date",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715729206827,
+      "stop": 1715729206827
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715729205741,
+  "stop": 1715729206833
+}

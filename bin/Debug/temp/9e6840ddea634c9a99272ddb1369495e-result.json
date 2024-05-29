@@ -1,0 +1,107 @@
+{
+  "uuid": "dfcaec0d-2137-4830-b6f9-5e3e22a741f0",
+  "historyId": "cf6d10ec2a6592668890bb985570138e",
+  "testCaseId": "301f668e1067b4a4f68ca3ec316aa1eb",
+  "fullName": "ASTProject/Features/IncorrectLogin/A user enters incorrect account credentials",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KHILT-9772"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "IncorrectLogin"
+    },
+    {
+      "name": "tag",
+      "value": "incorrectEmail"
+    }
+  ],
+  "links": [],
+  "name": "A user enters incorrect account credentials",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  A user enters an email",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715750317262,
+      "stop": 1715750318517
+    },
+    {
+      "name": "And  A user enters an incorrect password",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715750318518,
+      "stop": 1715750318685
+    },
+    {
+      "name": "When  A User presses login",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715750318685,
+      "stop": 1715750318845
+    },
+    {
+      "name": "Then  Prompt Invalid Email or Password",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715750318845,
+      "stop": 1715750320091
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715750317262,
+  "stop": 1715750320091
+}

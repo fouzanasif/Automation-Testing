@@ -1,0 +1,107 @@
+{
+  "uuid": "6f06d01f-b246-4955-8883-2c977b81daaa",
+  "historyId": "cf6d10ec2a6592668890bb985570138e",
+  "testCaseId": "301f668e1067b4a4f68ca3ec316aa1eb",
+  "fullName": "ASTProject/Features/IncorrectLogin/A user enters incorrect account credentials",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "16"
+    },
+    {
+      "name": "host",
+      "value": "KHILT-9772"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "IncorrectLogin"
+    },
+    {
+      "name": "tag",
+      "value": "incorrectEmail"
+    }
+  ],
+  "links": [],
+  "name": "A user enters incorrect account credentials",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  A user enters an email",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715748359629,
+      "stop": 1715748360757
+    },
+    {
+      "name": "And  A user enters an incorrect password",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715748360758,
+      "stop": 1715748360842
+    },
+    {
+      "name": "When  A User presses login",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715748360842,
+      "stop": 1715748360905
+    },
+    {
+      "name": "Then  Prompt Invalid Email or Password",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715748360905,
+      "stop": 1715748369413
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715748359629,
+  "stop": 1715748369415
+}

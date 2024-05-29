@@ -1,0 +1,141 @@
+{
+  "uuid": "4525a431-5ab2-42f1-a208-551bb44891fd",
+  "historyId": "dbd7adb716bbb88f49a3033649894f8d",
+  "testCaseId": "2ad5a74cd91aa2713b6b0aab72d4dc4d",
+  "fullName": "ASTProject/Features/ZZZZ-PayFine/User has penalty to pay for overdue books",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KHILT-9772"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "ZZZZ-PayFine"
+    },
+    {
+      "name": "tag",
+      "value": "finepayment"
+    }
+  ],
+  "links": [],
+  "name": "User has penalty to pay for overdue books",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "element click intercepted: Element is not clickable at point (851, -154)\n  (Session info: MicrosoftEdge=124.0.2478.97)",
+    "trace": "OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (851, -154)\n  (Session info: MicrosoftEdge=124.0.2478.97)\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at ASTProject.Pages.FineManagement.VisitFineManagement() in D:\\UniWork\\Semester2\\Software Testing\\Project - Copy\\k238054\\Pages\\FineManagement.cs:line 18\r\n   at ASTProject.StepDefinitions.PayFineWithLesserThan0StepDefinitions.GivenUserVisitsFineManagementPageAgain() in D:\\UniWork\\Semester2\\Software Testing\\Project - Copy\\k238054\\StepDefinitions\\PayFineWithLesserThan0StepDefinitions.cs:line 18\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  User visits Fine Management Page again",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "element click intercepted: Element is not clickable at point (851, -154)\n  (Session info: MicrosoftEdge=124.0.2478.97)",
+        "trace": "OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (851, -154)\n  (Session info: MicrosoftEdge=124.0.2478.97)\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at ASTProject.Pages.FineManagement.VisitFineManagement() in D:\\UniWork\\Semester2\\Software Testing\\Project - Copy\\k238054\\Pages\\FineManagement.cs:line 18\r\n   at ASTProject.StepDefinitions.PayFineWithLesserThan0StepDefinitions.GivenUserVisitsFineManagementPageAgain() in D:\\UniWork\\Semester2\\Software Testing\\Project - Copy\\k238054\\StepDefinitions\\PayFineWithLesserThan0StepDefinitions.cs:line 18\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715776653196,
+      "stop": 1715776657326
+    },
+    {
+      "name": "And  User Checks Penalty again",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715776657326,
+      "stop": 1715776657327
+    },
+    {
+      "name": "And  User presses Pay penalty if it exists again",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715776657329,
+      "stop": 1715776657329
+    },
+    {
+      "name": "And  User enters dues lesser than 0",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715776657329,
+      "stop": 1715776657329
+    },
+    {
+      "name": "When  User presses Submit Dues again",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715776657329,
+      "stop": 1715776657329
+    },
+    {
+      "name": "Then  prompt the user about lesser than 0 values",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715776657329,
+      "stop": 1715776657329
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715776653196,
+  "stop": 1715776657332
+}

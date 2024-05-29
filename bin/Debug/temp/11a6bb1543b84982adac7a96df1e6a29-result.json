@@ -1,0 +1,96 @@
+{
+  "uuid": "479bb4c7-4458-4a0b-b9ec-563c636533e1",
+  "historyId": "d7d42ff9a273999d05004076d9a030e2",
+  "testCaseId": "f3635b63da8eb4ea3a5b3bc4bfc96e02",
+  "fullName": "ASTProject/Features/ZZZ-CancelOrReturnBook/A user can cancel or return their book",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KHILT-9772"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "ZZZ-CancelOrReturnBook"
+    },
+    {
+      "name": "tag",
+      "value": "cancelOrReturnBook"
+    }
+  ],
+  "links": [],
+  "name": "A user can cancel or return their book",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "",
+    "trace": "NUnit.Framework.AssertionException\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.Fail(String message, Object[] args)\r\n   at NUnit.Framework.Assert.Fail()\r\n   at ASTProject.StepDefinitions.CancelOrReturnBookStepDefinitions.ThenTheStatusIsUpdatedAccordingly() in D:\\UniWork\\Semester2\\Software Testing\\Project - Copy\\k238054\\StepDefinitions\\CancelOrReturnBookStepDefinitions.cs:line 32\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  A user has Pending Approval, Approved, Overdue, or Reserved statusCodes",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715734776747,
+      "stop": 1715734776774
+    },
+    {
+      "name": "When  A user presses Cancel/Return",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715734776774,
+      "stop": 1715734776874
+    },
+    {
+      "name": "Then  The status is updated accordingly",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "",
+        "trace": "NUnit.Framework.AssertionException\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.Fail(String message, Object[] args)\r\n   at NUnit.Framework.Assert.Fail()\r\n   at ASTProject.StepDefinitions.CancelOrReturnBookStepDefinitions.ThenTheStatusIsUpdatedAccordingly() in D:\\UniWork\\Semester2\\Software Testing\\Project - Copy\\k238054\\StepDefinitions\\CancelOrReturnBookStepDefinitions.cs:line 32\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715734776874,
+      "stop": 1715734776876
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715734776747,
+  "stop": 1715734776876
+}

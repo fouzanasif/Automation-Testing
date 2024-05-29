@@ -1,0 +1,92 @@
+{
+  "uuid": "3ebe5296-9565-4d4c-890a-265edd448f09",
+  "historyId": "a25029a5c51e67d30d7f55f974493324",
+  "testCaseId": "e7062a6b3cec0ca0356361667e42b824",
+  "fullName": "ASTProject/Features/Logout/A user logs out of his\\/her session",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "16"
+    },
+    {
+      "name": "host",
+      "value": "KHILT-9772"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Logout"
+    },
+    {
+      "name": "tag",
+      "value": "logout"
+    }
+  ],
+  "links": [],
+  "name": "A user logs out of his/her session",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  A user clicks on profile dropdown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715777123797,
+      "stop": 1715777125882
+    },
+    {
+      "name": "When  The user clicks Logout",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715777125882,
+      "stop": 1715777126960
+    },
+    {
+      "name": "Then  Log the user out of the session",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715777126960,
+      "stop": 1715777126981
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715777123797,
+  "stop": 1715777126981
+}

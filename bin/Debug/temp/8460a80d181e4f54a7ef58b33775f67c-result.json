@@ -1,0 +1,92 @@
+{
+  "uuid": "907d093a-8e45-4c18-9fcb-eecded3ee521",
+  "historyId": "d7d42ff9a273999d05004076d9a030e2",
+  "testCaseId": "f3635b63da8eb4ea3a5b3bc4bfc96e02",
+  "fullName": "ASTProject/Features/ZZZ-CancelOrReturnBook/A user can cancel or return their book",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "16"
+    },
+    {
+      "name": "host",
+      "value": "KHILT-9772"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "ZZZ-CancelOrReturnBook"
+    },
+    {
+      "name": "tag",
+      "value": "cancelOrReturnBook"
+    }
+  ],
+  "links": [],
+  "name": "A user can cancel or return their book",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  A user has Pending Approval, Approved, Overdue, or Reserved statusCodes",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715748939005,
+      "stop": 1715748959927
+    },
+    {
+      "name": "When  A user presses Cancel/Return",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715748959927,
+      "stop": 1715748968886
+    },
+    {
+      "name": "Then  The status is updated accordingly",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715748968886,
+      "stop": 1715748968887
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715748939005,
+  "stop": 1715748968888
+}

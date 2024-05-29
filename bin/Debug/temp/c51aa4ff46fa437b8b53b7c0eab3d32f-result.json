@@ -1,0 +1,92 @@
+{
+  "uuid": "02a2b6f7-91e0-439b-a9e1-4b5796057aca",
+  "historyId": "d98779ae56fa93f3a0ea2625c41c65d6",
+  "testCaseId": "5a1216673013a23f5d9b730c8f5bba6b",
+  "fullName": "ASTProject/Features/IncorrectEmail/A user enters incorrect email",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KHILT-9772"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "IncorrectEmail"
+    },
+    {
+      "name": "tag",
+      "value": "incorrectEmail"
+    }
+  ],
+  "links": [],
+  "name": "A user enters incorrect email",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  A user goes to URL",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715776590198,
+      "stop": 1715776596895
+    },
+    {
+      "name": "When  user enters incorrect email",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715776596896,
+      "stop": 1715776599041
+    },
+    {
+      "name": "Then  prompt the user about incorrect or missing email",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715776599042,
+      "stop": 1715776600328
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715776590192,
+  "stop": 1715776600350
+}

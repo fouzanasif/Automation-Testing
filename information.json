@@ -1,0 +1,17 @@
+{
+  "URL": "https://librarymanagementsystem-930eb.web.app/",
+  "Credentials": {
+    "email": "a@a.com",
+    "password": "123456"
+  },
+  "Signup": {
+    "name": "Fouzan Amal AliHasnain",
+    "email": "faa@ast.project",
+    "password": "345678",
+    "membership": "Gold/ $5",
+    "subperiod": "1 Year"
+  },
+  "Book": 1,
+  "IncorrectDueDate": "05/14/2024",
+  "fine": 100
+}

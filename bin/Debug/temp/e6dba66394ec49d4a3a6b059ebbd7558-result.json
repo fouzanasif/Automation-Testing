@@ -1,0 +1,96 @@
+{
+  "uuid": "66cfd75e-c864-44bd-a5fd-0f55f018ee8c",
+  "historyId": "134043a9c3e866810ac777c3517aa84f",
+  "testCaseId": "86880bdcd209fe91d7af3b627ce2a099",
+  "fullName": "Project/Features/CustomerLoginButton/Customer Login Button is working",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KHILT-9772"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "CustomerLoginButton"
+    },
+    {
+      "name": "tag",
+      "value": "customerloginbutton"
+    }
+  ],
+  "links": [],
+  "name": "Customer Login Button is working",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body.ng-scope:nth-child(2) div.ng-scope:nth-child(1) div.container-fluid.ng-scope div.ng-scope div.ng-scope div.borderM.box.padT20 div.center:nth-child(1) > button.btn.btn-primary.btn-lg\"}\n  (Session info: MicrosoftEdge=124.0.2478.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+    "trace": "OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body.ng-scope:nth-child(2) div.ng-scope:nth-child(1) div.container-fluid.ng-scope div.ng-scope div.ng-scope div.borderM.box.padT20 div.center:nth-child(1) > button.btn.btn-primary.btn-lg\"}\n  (Session info: MicrosoftEdge=124.0.2478.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at Project.Pages.FrontPage.ClickCustomerLogin() in D:\\UniWork\\Semester2\\Software Testing\\Project\\k238054\\Pages\\FrontPage.cs:line 17\r\n   at Project.StepDefinitions.CustomerLoginButtonStepDefinitions.WhenUserClicksCustomerLogin() in D:\\UniWork\\Semester2\\Software Testing\\Project\\k238054\\StepDefinitions\\CustomerLoginButtonStepDefinitions.cs:line 23\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  User opens URL",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715719081343,
+      "stop": 1715719087951
+    },
+    {
+      "name": "When  User clicks Customer Login",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body.ng-scope:nth-child(2) div.ng-scope:nth-child(1) div.container-fluid.ng-scope div.ng-scope div.ng-scope div.borderM.box.padT20 div.center:nth-child(1) > button.btn.btn-primary.btn-lg\"}\n  (Session info: MicrosoftEdge=124.0.2478.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+        "trace": "OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"body.ng-scope:nth-child(2) div.ng-scope:nth-child(1) div.container-fluid.ng-scope div.ng-scope div.ng-scope div.borderM.box.padT20 div.center:nth-child(1) > button.btn.btn-primary.btn-lg\"}\n  (Session info: MicrosoftEdge=124.0.2478.97); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at Project.Pages.FrontPage.ClickCustomerLogin() in D:\\UniWork\\Semester2\\Software Testing\\Project\\k238054\\Pages\\FrontPage.cs:line 17\r\n   at Project.StepDefinitions.CustomerLoginButtonStepDefinitions.WhenUserClicksCustomerLogin() in D:\\UniWork\\Semester2\\Software Testing\\Project\\k238054\\StepDefinitions\\CustomerLoginButtonStepDefinitions.cs:line 23\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715719087953,
+      "stop": 1715719088003
+    },
+    {
+      "name": "Then  User goes to Customer Login",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715719088003,
+      "stop": 1715719088004
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715719081337,
+  "stop": 1715719088008
+}

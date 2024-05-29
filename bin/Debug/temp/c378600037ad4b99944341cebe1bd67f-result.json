@@ -1,0 +1,141 @@
+{
+  "uuid": "220882c0-29ed-406b-b530-3284508863ac",
+  "historyId": "9efcb3b0ed06ed689bdcabcb0ceff93a",
+  "testCaseId": "4cefe84e520ea0cf170c465accbdfdd8",
+  "fullName": "ASTProject/Features/ZZZZ-PayFineWithLesserThan0Value/User has penalty to pay for overdue books",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "16"
+    },
+    {
+      "name": "host",
+      "value": "KHILT-9772"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "ZZZZ-PayFineWithLesserThan0Value"
+    },
+    {
+      "name": "tag",
+      "value": "finepayment"
+    }
+  ],
+  "links": [],
+  "name": "User has penalty to pay for overdue books",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Input string was not in a correct format.",
+    "trace": "System.FormatException: Input string was not in a correct format.\r\n   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)\r\n   at System.Int32.Parse(String s)\r\n   at ASTProject.Pages.FineManagement.TotalDues() in D:\\UniWork\\Semester2\\Software Testing\\Project - Copy\\k238054\\Pages\\FineManagement.cs:line 47\r\n   at ASTProject.StepDefinitions.PayFineStepDefinitions.WhenUserPressesSubmitDues() in D:\\UniWork\\Semester2\\Software Testing\\Project - Copy\\k238054\\StepDefinitions\\PayFineStepDefinitions.cs:line 51\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  User visits Fine Management Page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715777249554,
+      "stop": 1715777252612
+    },
+    {
+      "name": "And  User Checks Penalty",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715777252612,
+      "stop": 1715777260645
+    },
+    {
+      "name": "And  User presses Pay penalty if it exists",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715777260645,
+      "stop": 1715777261733
+    },
+    {
+      "name": "And  User enters dues to pay within range",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715777261733,
+      "stop": 1715777281987
+    },
+    {
+      "name": "When  User presses Submit Dues",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Input string was not in a correct format.",
+        "trace": "System.FormatException: Input string was not in a correct format.\r\n   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)\r\n   at System.Int32.Parse(String s)\r\n   at ASTProject.Pages.FineManagement.TotalDues() in D:\\UniWork\\Semester2\\Software Testing\\Project - Copy\\k238054\\Pages\\FineManagement.cs:line 47\r\n   at ASTProject.StepDefinitions.PayFineStepDefinitions.WhenUserPressesSubmitDues() in D:\\UniWork\\Semester2\\Software Testing\\Project - Copy\\k238054\\StepDefinitions\\PayFineStepDefinitions.cs:line 51\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715777281987,
+      "stop": 1715777317573
+    },
+    {
+      "name": "Then  Check if penalty left was expected",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715777317574,
+      "stop": 1715777317574
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715777249553,
+  "stop": 1715777318793
+}

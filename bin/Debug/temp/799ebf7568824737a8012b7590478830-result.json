@@ -1,0 +1,141 @@
+{
+  "uuid": "b91f6c2e-5e92-43b3-9dcb-706ba047171d",
+  "historyId": "dbd7adb716bbb88f49a3033649894f8d",
+  "testCaseId": "2ad5a74cd91aa2713b6b0aab72d4dc4d",
+  "fullName": "ASTProject/Features/ZZZZ-PayFine/User has penalty to pay for overdue books",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "16"
+    },
+    {
+      "name": "host",
+      "value": "KHILT-9772"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "ZZZZ-PayFine"
+    },
+    {
+      "name": "tag",
+      "value": "finepayment"
+    }
+  ],
+  "links": [],
+  "name": "User has penalty to pay for overdue books",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "element click intercepted: Element is not clickable at point (851, -402)\n  (Session info: MicrosoftEdge=124.0.2478.97)",
+    "trace": "OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (851, -402)\n  (Session info: MicrosoftEdge=124.0.2478.97)\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at ASTProject.Pages.FineManagement.VisitFineManagement()\r\n   at ASTProject.StepDefinitions.PayFineStepDefinitions.GivenUserVisitsFineManagementPage()\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  User visits Fine Management Page",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "element click intercepted: Element is not clickable at point (851, -402)\n  (Session info: MicrosoftEdge=124.0.2478.97)",
+        "trace": "OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (851, -402)\n  (Session info: MicrosoftEdge=124.0.2478.97)\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at ASTProject.Pages.FineManagement.VisitFineManagement()\r\n   at ASTProject.StepDefinitions.PayFineStepDefinitions.GivenUserVisitsFineManagementPage()\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715750704768,
+      "stop": 1715750716614
+    },
+    {
+      "name": "And  User Checks Penalty",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715750716615,
+      "stop": 1715750716615
+    },
+    {
+      "name": "And  User presses Pay penalty if it exists",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715750716618,
+      "stop": 1715750716618
+    },
+    {
+      "name": "And  User enters dues to pay within range",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715750716618,
+      "stop": 1715750716618
+    },
+    {
+      "name": "When  User presses Submit Dues",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715750716618,
+      "stop": 1715750716618
+    },
+    {
+      "name": "Then  Check if penalty left was expected",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1715750716618,
+      "stop": 1715750716618
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715750704768,
+  "stop": 1715750718061
+}
